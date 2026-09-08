@@ -6,46 +6,68 @@
     <title>学校简介 — 澳门科技大学</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
+    
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="/">MUST 介绍站</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+          <img src="/assets/img/logo.svg" alt="澳门科技大学 Macau University of Science and Technology" class="navbar-logo me-2">
+          <span class="brand-text">澳门科技大学</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="/about.html">学校简介</a></li>
-            <li class="nav-item"><a class="nav-link" href="/academics.html">学院与专业</a></li>
-            <li class="nav-item"><a class="nav-link" href="/admissions.html">招生信息</a></li>
-            <li class="nav-item"><a class="nav-link" href="/life.html">校园生活</a></li>
-            <li class="nav-item"><a class="nav-link" href="/contact.html">联系我们</a></li>
-          </ul>
+          <ul class="navbar-nav ms-auto align-items-lg-center"><li class="nav-item"><a class="nav-link" href="/">首页</a></li><li class="nav-item"><a class="nav-link active" href="/about.html">学校简介</a></li><li class="nav-item"><a class="nav-link" href="/academics.html">学院与专业</a></li><li class="nav-item"><a class="nav-link" href="/admissions.html">招生信息</a></li><li class="nav-item"><a class="nav-link" href="/life.html">校园生活</a></li><li class="nav-item"><a class="nav-link" href="/contact.html">联系我们</a></li></ul>
+          <a class="btn btn-sm btn-outline-primary ms-lg-3 mt-2 mt-lg-0 lang-toggle" href="/en/about.html">English</a>
         </div>
       </div>
     </nav>
-
+    
+    <header class="page-hero d-flex align-items-center" style="background-image:linear-gradient(rgba(15,42,70,.6),rgba(15,42,70,.6)),url('/assets/img/campus-main.jpg');">
+      <div class="container text-white py-5"><h1 class="fw-bold">学校简介</h1></div>
+    </header>
     <main class="container my-5">
-      <h1>学校简介</h1>
-      <p>澳门科技大学（Macau University of Science and Technology, MUST）成立于2000年，是澳门地区具有代表性的综合性大学之一。学校设有多所学院，提供本科、硕士与博士课程，强调科研与产业结合。</p>
-
-      <h2>办学宗旨</h2>
-      <p>培养具备国际视野与专业能力的人才，推动区域科技创新与文化发展。</p>
-
-      <h2>校园与设施</h2>
-      <p>校园位于澳门，拥有现代化教学楼、图书馆、实验中心与体育设施，支持学生实践与创新活动。</p>
-
-      <h2>发展与合作</h2>
+      <div class="row g-4 align-items-center">
+        <div class="col-lg-6">
+          <p class="lead">澳门科技大学（Macau University of Science and Technology，简称 MUST）成立于 2000 年，是澳门地区具有代表性的综合性大学之一，设有多个学院，提供本科、硕士与博士课程，强调科研与产业结合。</p>
+          <h2>办学宗旨</h2>
+          <p>培养具备国际视野与专业能力的人才，推动区域科技创新与文化发展。</p>
+          <h2>校园与设施</h2>
+          <p>校园位于澳门，拥有现代化教学楼、图书馆、实验中心与体育设施，支持学生实践与创新活动。</p>
+        </div>
+        <div class="col-lg-6"><img src="/assets/img/campus-campus.jpg" alt="校园景观" class="img-fluid rounded shadow-sm"></div>
+      </div>
+      <h2 class="mt-5">发展与合作</h2>
       <p>与多国大学建立合作关系，积极参与国际科研项目并接纳海外学生交换与访问。</p>
-
       <a class="btn btn-secondary mt-3" href="/">返回首页</a>
     </main>
-
-    <footer class="bg-primary text-white py-4 mt-auto">
-      <div class="container text-center small">&copy; 2026 澳门科技大学介绍站 模板</div>
+    <script src="/assets/js/contact.js"></script>
+    
+    <footer class="site-footer text-white pt-5 pb-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 mb-4 mb-md-0">
+            <div class="d-flex align-items-center mb-2">
+              <img src="/assets/img/logo.svg" alt="MUST" class="footer-logo me-2">
+              <span class="fw-semibold">澳门科技大学</span>
+            </div>
+            <p class="small mb-1">澳门氹仔伟龙马路</p>
+            <p class="small mb-2">电话 (853) 2888 1122 · enquiry@must.edu.mo</p>
+            <a class="small" href="https://www.must.edu.mo/" target="_blank" rel="noopener">澳门科技大学官网 →</a>
+          </div>
+          <div class="col-md-7">
+            <p class="small text-white-50 mb-2">校园照片：Wikimedia Commons（作者 Winslowchen / Yumeto / Bill9999360，CC BY-SA 3.0/4.0）；校徽为澳门科技大学官方标志。</p>
+            <p class="small text-white-50 mb-0">本站为介绍性质的模板站点，并非澳门科技大学官方网站；正式信息请以官网为准。</p>
+          </div>
+        </div>
+        <div class="text-center small text-white-50 pt-4 mt-4 border-top border-secondary">
+          © 2026 澳门科技大学介绍站
+        </div>
+      </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>

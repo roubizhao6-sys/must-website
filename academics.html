@@ -6,64 +6,57 @@
     <title>学院与专业 — 澳门科技大学</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/assets/css/style.css">
+    
   </head>
   <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
       <div class="container">
-        <a class="navbar-brand" href="/">MUST 介绍站</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
+        <a class="navbar-brand d-flex align-items-center" href="/">
+          <img src="/assets/img/logo.svg" alt="澳门科技大学 Macau University of Science and Technology" class="navbar-logo me-2">
+          <span class="brand-text">澳门科技大学</span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navmenu">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item"><a class="nav-link" href="/about.html">学校简介</a></li>
-            <li class="nav-item"><a class="nav-link" href="/academics.html">学院与专业</a></li>
-            <li class="nav-item"><a class="nav-link" href="/admissions.html">招生信息</a></li>
-            <li class="nav-item"><a class="nav-link" href="/life.html">校园生活</a></li>
-            <li class="nav-item"><a class="nav-link" href="/contact.html">联系我们</a></li>
-          </ul>
+          <ul class="navbar-nav ms-auto align-items-lg-center"><li class="nav-item"><a class="nav-link" href="/">首页</a></li><li class="nav-item"><a class="nav-link" href="/about.html">学校简介</a></li><li class="nav-item"><a class="nav-link active" href="/academics.html">学院与专业</a></li><li class="nav-item"><a class="nav-link" href="/admissions.html">招生信息</a></li><li class="nav-item"><a class="nav-link" href="/life.html">校园生活</a></li><li class="nav-item"><a class="nav-link" href="/contact.html">联系我们</a></li></ul>
+          <a class="btn btn-sm btn-outline-primary ms-lg-3 mt-2 mt-lg-0 lang-toggle" href="/en/academics.html">English</a>
         </div>
       </div>
     </nav>
-
+    
+    <header class="page-hero d-flex align-items-center" style="background-image:linear-gradient(rgba(15,42,70,.6),rgba(15,42,70,.6)),url('/assets/img/campus-library.jpg');">
+      <div class="container text-white py-5"><h1 class="fw-bold">学院与专业</h1></div>
+    </header>
     <main class="container my-5">
-      <h1>学院与代表专业</h1>
-      <p>以下为示例学院与代表专业，实际以学校官网公布为准。</p>
-
-      <div class="row">
-        <div class="col-md-4">
-          <h3>商学院</h3>
-          <ul>
-            <li>会计学</li>
-            <li>金融学</li>
-            <li>国际商务</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h3>工程学院</h3>
-          <ul>
-            <li>电子工程</li>
-            <li>计算机科学与技术</li>
-            <li>机械工程</li>
-          </ul>
-        </div>
-        <div class="col-md-4">
-          <h3>人文与法律学院</h3>
-          <ul>
-            <li>法律学</li>
-            <li>公共管理</li>
-            <li>语言与文化</li>
-          </ul>
-        </div>
-      </div>
-
+      <p class="text-muted">以下学院与专业信息仅供介绍参考，实际以学校官网公布为准。</p>
+      <div class="row g-3"><div class="col-md-6 col-lg-3 mb-4"><div class="card h-100 border-0 shadow-sm"><div class="card-body"><h5 class="card-title">创新工程学院</h5><ul class="small mb-0"><li>计算机科学</li><li>电子工程</li><li>自动化与系统工程</li></ul></div></div></div><div class="col-md-6 col-lg-3 mb-4"><div class="card h-100 border-0 shadow-sm"><div class="card-body"><h5 class="card-title">商学院</h5><ul class="small mb-0"><li>会计学</li><li>金融学</li><li>国际商务</li></ul></div></div></div><div class="col-md-6 col-lg-3 mb-4"><div class="card h-100 border-0 shadow-sm"><div class="card-body"><h5 class="card-title">法学院</h5><ul class="small mb-0"><li>法律学</li><li>国际与比较法</li></ul></div></div></div><div class="col-md-6 col-lg-3 mb-4"><div class="card h-100 border-0 shadow-sm"><div class="card-body"><h5 class="card-title">酒店与旅游管理学院</h5><ul class="small mb-0"><li>酒店管理</li><li>旅游管理</li><li>会展管理</li></ul></div></div></div><div class="col-md-6 col-lg-3 mb-4"><div class="card h-100 border-0 shadow-sm"><div class="card-body"><h5 class="card-title">人文艺术学院</h5><ul class="small mb-0"><li>艺术设计</li><li>传播学</li><li>文化遗产</li></ul></div></div></div><div class="col-md-6 col-lg-3 mb-4"><div class="card h-100 border-0 shadow-sm"><div class="card-body"><h5 class="card-title">国际学院</h5><ul class="small mb-0"><li>国际关系</li><li>英语研究</li><li>葡语研究</li></ul></div></div></div><div class="col-md-6 col-lg-3 mb-4"><div class="card h-100 border-0 shadow-sm"><div class="card-body"><h5 class="card-title">博雅学院</h5><ul class="small mb-0"><li>博雅教育</li><li>通识课程</li></ul></div></div></div><div class="col-md-6 col-lg-3 mb-4"><div class="card h-100 border-0 shadow-sm"><div class="card-body"><h5 class="card-title">医学部</h5><ul class="small mb-0"><li>中医药学院</li><li>医学院</li><li>药学院</li></ul></div></div></div></div>
       <a class="btn btn-secondary mt-3" href="/">返回首页</a>
     </main>
-
-    <footer class="bg-primary text-white py-4 mt-auto">
-      <div class="container text-center small">&copy; 2026 澳门科技大学介绍站 模板</div>
+    
+    <footer class="site-footer text-white pt-5 pb-4 mt-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-5 mb-4 mb-md-0">
+            <div class="d-flex align-items-center mb-2">
+              <img src="/assets/img/logo.svg" alt="MUST" class="footer-logo me-2">
+              <span class="fw-semibold">澳门科技大学</span>
+            </div>
+            <p class="small mb-1">澳门氹仔伟龙马路</p>
+            <p class="small mb-2">电话 (853) 2888 1122 · enquiry@must.edu.mo</p>
+            <a class="small" href="https://www.must.edu.mo/" target="_blank" rel="noopener">澳门科技大学官网 →</a>
+          </div>
+          <div class="col-md-7">
+            <p class="small text-white-50 mb-2">校园照片：Wikimedia Commons（作者 Winslowchen / Yumeto / Bill9999360，CC BY-SA 3.0/4.0）；校徽为澳门科技大学官方标志。</p>
+            <p class="small text-white-50 mb-0">本站为介绍性质的模板站点，并非澳门科技大学官方网站；正式信息请以官网为准。</p>
+          </div>
+        </div>
+        <div class="text-center small text-white-50 pt-4 mt-4 border-top border-secondary">
+          © 2026 澳门科技大学介绍站
+        </div>
+      </div>
     </footer>
-
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
